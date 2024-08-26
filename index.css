@@ -191,7 +191,7 @@ top: -200px;
 left: px;
     justify-content: center;
     align-items: center;
-    /* animation-iteration-count: infinite; */
+     animation-iteration-count: infinite; 
    animation-fill-mode: backwards;
   
 }
