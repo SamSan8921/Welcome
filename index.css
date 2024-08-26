@@ -1,0 +1,232 @@
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    
+   
+    
+
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.welcome{
+width: 200px;
+height: 190px;
+background-color: pink;
+font-size: 1em;
+font-family:'Courier New', Courier, monospace;
+display: flex;
+position: relative;
+justify-content: center;
+top: 250px;
+align-items: center;
+animation-name: hello;
+animation-duration: 5s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-fill-mode: forwards;
+z-index: 1;
+
+}
+
+.welcome {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+@keyframes hello {
+    0%{
+        border-radius: 0;
+        background-color: aqua;
+        color: orange;
+      
+        
+    
+    }
+    10%{
+        border-radius: 90%;
+        background-color: aliceblue;
+        color: pink;
+        
+    }
+    20%{
+        border-radius: 70%;
+        background-color: orange;
+        color: darkslategray;
+      
+    }
+    30%{
+        border-radius: 50%;
+        background-color: violet;
+        color: darkturquoise;
+      
+    }
+    40%{
+        border-radius: 40%;
+        background-color: silver;
+        color: red;
+       
+        
+    }
+
+50%{
+    border-radius: 20%;
+    background-color: yellow;
+    color: violet;
+    
+   
+}
+60%{
+    border-radius: 40%;
+    background-color: blue;
+    color: orangered;
+    
+    
+}
+70%{
+    border-radius: 30%;
+    background-color: green;
+    color: white;
+   
+}
+80%{
+    border-radius: 20%;
+   background-color: red;
+   color: yellow;
+  
+}
+90%{
+    border-radius: 10%;
+    background-color: gold;
+    color: silver;
+}
+100%{
+    border-radius: 0.5%;
+    background-color: greenyellow;
+    color: blue;
+  
+}
+
+
+}
+
+
+
+   .box2 img{
+    animation-name: pac;
+    animation-duration:10s;
+    
+    
+    position: relative;
+ 
+ display: flex;
+top: -200px;
+    justify-content: center;
+    align-items: center;
+    animation-iteration-count: infinite;
+   animation-fill-mode: backwards;
+
+   }
+
+   @keyframes pac {
+    0%{
+        
+       
+      
+        top: -200px;
+        left: 0%;
+    }
+    25%{
+       
+        top: 500px;
+        left: 25%;
+      
+    }
+    50%{
+     
+        top:-200px ;
+        left: 50%;
+     
+    }
+    75%{
+        
+        top:700px;
+        left: 75%;
+        
+    }
+    100%{
+       
+        top:-200px ;
+        left:100% ;
+       
+    }
+    
+}
+
+
+
+
+.box img{
+    
+    animation-name: square;
+    animation-duration:20s;
+    
+    
+    position: relative;
+ 
+ display: flex;
+top: -200px;
+left: px;
+    justify-content: center;
+    align-items: center;
+    /* animation-iteration-count: infinite; */
+   animation-fill-mode: backwards;
+  
+}
+
+@keyframes square {
+    0%{
+        
+       
+      
+        top: -200px;
+        left: 0%;
+    }
+    25%{
+       
+        top: 500px;
+        left: 25%;
+      
+    }
+    50%{
+     
+        top:-200px ;
+        left: 50%;
+     
+    }
+    75%{
+        
+        top:700px;
+        left: 75%;
+        
+    }
+    100%{
+       
+        top:-200px ;
+        left:100% ;
+       
+    }
+    
+}
